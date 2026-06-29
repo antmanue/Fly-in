@@ -15,5 +15,5 @@ clean:
 
 lint:
 	env/bin/flake8 .
-	env/bin/mypy .
+	env/bin/mypy --disallow-untyped-defs --check-untyped-defs .
 
